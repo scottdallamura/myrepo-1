@@ -2,7 +2,7 @@
 # Build and test ASP.NET web applications.
 # https://docs.microsoft.com/vsts/pipelines/apps/aspnet/build-aspnet-4
 
-queue: 'Hosted VS2017'
+queue: 'Default'
 variables:
   buildConfiguration: 'Release'
   buildPlatform: 'Any CPU'
